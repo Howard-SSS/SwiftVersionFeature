@@ -45,4 +45,14 @@ class _42Feature: NSObject {
             
         }
     }
+    
+    // MARK: - 随机数
+    func randomTest() {
+        let intRandom = Int.random(in: 0...10)
+        let keys = ["a", "b", "c", "d"]
+        // 随机获取一项
+        print(keys.randomElement() ?? "")
+        // 打乱随机获取一项
+        print(keys.shuffled().randomElement() ?? "")
+    }
 }
