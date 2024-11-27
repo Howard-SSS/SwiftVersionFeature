@@ -79,4 +79,7 @@ class _42Feature: NSObject {
     
     // MARK: - 内存独占访问
     // Build Settings 搜 exclusive access to memory
+    
+    // MARK: - Hashable 的加强
+    // https://juejin.cn/post/6844903618714271751#heading-16 不知道讲什么
 }
