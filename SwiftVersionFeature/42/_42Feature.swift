@@ -76,4 +76,7 @@ class _42Feature: NSObject {
         #warning("")
         #endif
     }
+    
+    // MARK: - 内存独占访问
+    // Build Settings 搜 exclusive access to memory
 }
