@@ -32,4 +32,17 @@ class _42Feature: NSObject {
         let p = Person(sex: 0)
         let u: CGFloat? = p.age
     }
+    
+    // MARK: - CaseIterable
+    /// 继承该协议可以遍历所有枚举值
+    enum PriorityLevel: CaseIterable {
+        case userInitiated
+        case userInteractive
+    }
+    
+    func caseIterableTest() {
+        for level in PriorityLevel.allCases {
+            
+        }
+    }
 }
