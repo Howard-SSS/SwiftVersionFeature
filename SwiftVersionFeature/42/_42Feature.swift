@@ -55,4 +55,25 @@ class _42Feature: NSObject {
         // 打乱随机获取一项
         print(keys.shuffled().randomElement() ?? "")
     }
+    
+    // MARK: - 目标平台
+    func platformTest() {
+        // 判断系统从而导包
+        #if os(iOS) || os(watchOS) || os(tvOS)
+//        import UIKit
+        #else
+//        import AppKit
+        #endif
+        
+        // 判断是否能导包
+        #if canImport(UIKit)
+//        import UIKit
+        #elseif canImport(AppKit)
+//        import AppKit
+        #else
+        // 编译宏
+        #error("")
+        #warning("")
+        #endif
+    }
 }
