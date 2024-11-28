@@ -57,4 +57,21 @@ class _50Feature: NSObject {
         p(wangming: [30.0, 33.0, 28.0])
     }
     
+    // MARK: - StringInterpolation
+    func stringInterpolationTest() {
+        _ = "\(1.2345, format: "%.2f")"
+    }
+}
+
+// MARK: - StringInterpolation
+/// SE-0228 https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2Fapple%2Fswift-evolution%2Fblob%2Fmaster%2Fproposals%2F0228-fix-expressiblebystringinterpolation.md
+extension String.StringInterpolation {
+    
+    public mutating func appendInterpolation(_ number: Double?, format: String) {
+        if let number = number {
+            return appendLiteral(String(format: format, number))
+        } else {
+            return appendLiteral("nil")
+        }
+    }
 }
