@@ -16,6 +16,7 @@
 		EB4FF6642C6B3B05006A90A9 /* _57Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4FF6632C6B3B05006A90A9 /* _57Feature.swift */; };
 		EB4FF6672C6B5A35006A90A9 /* _56Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4FF6662C6B5A35006A90A9 /* _56Feature.swift */; };
 		EBA2B4522CF6F05B0069BE62 /* _42Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2B4512CF6F05B0069BE62 /* _42Feature.swift */; };
+		EBA2B4542CF7F6440069BE62 /* _50Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2B4532CF7F6440069BE62 /* _50Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EB4FF6632C6B3B05006A90A9 /* _57Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _57Feature.swift; sourceTree = "<group>"; };
 		EB4FF6662C6B5A35006A90A9 /* _56Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _56Feature.swift; sourceTree = "<group>"; };
 		EBA2B4512CF6F05B0069BE62 /* _42Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _42Feature.swift; sourceTree = "<group>"; };
+		EBA2B4532CF7F6440069BE62 /* _50Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _50Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				EBA2B4502CF6F04A0069BE62 /* 42 */,
+				EBA2B4552CF7F64B0069BE62 /* 50 */,
 				EB4FF6652C6B5A2A006A90A9 /* 56 */,
 				EB4FF6602C6B3A77006A90A9 /* 57 */,
 				EB4FF64C2C6B3A3E006A90A9 /* AppDelegate.swift */,
@@ -98,6 +101,14 @@
 				EBA2B4512CF6F05B0069BE62 /* _42Feature.swift */,
 			);
 			path = 42;
+			sourceTree = "<group>";
+		};
+		EBA2B4552CF7F64B0069BE62 /* 50 */ = {
+			isa = PBXGroup;
+			children = (
+				EBA2B4532CF7F6440069BE62 /* _50Feature.swift */,
+			);
+			path = 50;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				EB4FF6642C6B3B05006A90A9 /* _57Feature.swift in Sources */,
 				EB4FF64F2C6B3A3E006A90A9 /* SceneDelegate.swift in Sources */,
 				EB4FF6672C6B5A35006A90A9 /* _56Feature.swift in Sources */,
+				EBA2B4542CF7F6440069BE62 /* _50Feature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
