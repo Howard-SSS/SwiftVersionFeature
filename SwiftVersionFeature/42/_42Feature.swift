@@ -11,6 +11,7 @@ class _42Feature: NSObject {
 
     // MARK: - @dynamicMemberLookup
     /// 动态查找成员属性，先找同名成员属性，找不到就会在`subscript(dynamicMember member: String)`中查找
+    /// SE-0195 https://github.com/swiftlang/swift-evolution/blob/main/proposals/0195-dynamic-member-lookup.md
     @dynamicMemberLookup
     struct Person {
         
